@@ -1,0 +1,230 @@
+ /* reset do css navegador */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+
+.bodybackground {
+    background-color: #00d3c836;
+}
+ /* NavBar */
+.NavBarContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 7%;
+    background-color: rgba(104, 219, 219, 0.486);
+}
+.LinkLogo {
+    cursor: pointer;
+}
+.ContainerLinks {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    align-items: center;
+}
+.LinksDirection {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(153, 151, 151);
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.3); 
+}
+.LinksDirection:hover {
+    background-color: rgba(105, 196, 196, 0.486);
+    cursor: pointer;
+}
+.links {
+    margin-right: 2%;
+    list-style-type: none;  
+}
+
+.bodylinks {
+    margin: 10px 3%;
+}
+
+ /* Apresentação do aluno */
+#ApresentacaoAluno {
+    width: 100%;
+    margin: 2rem 0px;
+    display: flex;
+    justify-content: center;
+}
+.aluno {
+    border-bottom: 1px solid rgb(199, 197, 197);
+}
+
+ /* Tabela de carros */
+#ContainerTable {
+    border: solid 1px rgb(153, 151, 151);
+    width: 100%;
+}
+.TitleTable {
+    text-align: center;
+    padding: 5px;
+}
+
+.TabelaEspacada{
+    width: 50%;
+    margin: auto;
+}
+
+.giftdrift {
+    min-width: 500px;
+    min-height: 300px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    opacity: 80%;
+}
+
+ /* Imagens de carros */
+.ContainerCard {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.card {
+    padding: 5px;
+    border:10px solid black;
+    border-radius: 5%;
+    margin-bottom: 5%;
+    box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+ /* Tabela de carros */
+#ContainerCardTitle {
+    width: 100%;
+    margin: 2rem 0px;
+    display: flex;
+    justify-content: center;
+}
+.TitleCard {
+    border-bottom: 1px solid rgb(199, 197, 197);
+}
+
+/* Formulario */
+.body {
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ContainerFormulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-container {
+    background-color: rgb(199, 197, 197);
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.label {
+    margin-bottom: 8px;
+    display: block;
+    color: #555;
+}
+
+.botao-formulario{
+    resize: none;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.OptionSelect {
+    margin-right: 8px;   
+}
+
+.radio-group {
+    margin-bottom: 15px;
+}
+
+.buttonenviar {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buttonenviar:hover {
+    background-color: #45a049;
+}
+.envio {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #45a049;
+    border: 1px solid rgb(153, 151, 151);
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.3); 
+}
+
+.voltar {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #45a049;
+    border: 1px solid rgb(153, 151, 151);
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.3); 
+}
+
+.ContainerFormularioResp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.FormularioResp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5%;
+    background-color: rgba(202, 202, 202, 0.521);
+    min-height: 10vh;
+    border-radius: 20px;
+}
+
+.enviado {
+    display: flex;
+    border: red;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    size: 16px;
+    margin-top: 20px;
+    box-shadow: 0 4px 0px -2px rgba(0, 0, 0, 0.3);
+}
