@@ -3,11 +3,9 @@
 <h2 align="center">🚀 Linguagens mais usadas</h2>
 
 <p align="center">
-  <img
-    src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=ResennDev&layout=compact&theme=dark"
-    alt="Linguagens mais usadas"
-  />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ResennDev&theme=github_dark" />
 </p>
+
 
     
 <div style="display: inline_block"><br>
