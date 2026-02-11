@@ -3,7 +3,10 @@
 <h2 align="center">🚀 Linguagens mais usadas</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ResennDev&layout=compact&theme=dark" />
+  <img
+    src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=ResennDev&layout=compact&theme=dark"
+    alt="Linguagens mais usadas"
+  />
 </p>
 
     
