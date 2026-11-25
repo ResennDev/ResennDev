@@ -32,7 +32,7 @@
   <img alt="React" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"/>
   <img alt="Node.js" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"/>
   <img alt="Php" height="35" src="https://www.php.net/images/logos/new-php-logo.svg"/>
-  <img alt="Php" height="35" src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg"/>
+  <img alt="Flutter" height="35" src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg"/>
 </p>
 
 
